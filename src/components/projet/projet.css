@@ -1,0 +1,93 @@
+.projet {
+  background: rgba(0, 0, 0, 0.658);
+  font-family: "Montserrat", sans-serif;
+ 
+}
+
+.projet-box {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+ 
+}
+
+.box-1 {
+  background-image: url("../../nala.png");
+  clip-path: circle(25%);
+  transition: clip-path 1s;
+}
+
+.box-1:hover {
+  clip-path: circle(100%);
+  opacity: 1
+}
+
+.box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  opacity: 0.5
+}
+
+.box-2 {
+  background-image: url("../../enigma.png");
+  clip-path: ellipse(40% 10%);
+  transition: clip-path 1s;
+}
+
+.box-2:hover {
+  clip-path: ellipse(80% 80%);
+  opacity: 1
+}
+
+.box-3 {
+  background-image: url("../../cv.png");
+  clip-path:  polygon(80% 50%, 60% 20%, 20% 20%, 30% 30%, 30% 60%, 50% 75%, 80% 20%, 25% 50%);
+  transition: clip-path 1s;
+}
+
+.box-3:hover {
+  clip-path: polygon(0 0, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%);
+  opacity: 1
+
+}
+
+.box:hover .titre {
+  display: none;
+}
+
+.box-2:hover .titre {
+  display: none;
+}
+
+.box-3:hover .titre {
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .box {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projet-box {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .projet-box {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .projet-box {
+    grid-template-columns: repeat(1, max-content);
+  }
+}
+
+
+

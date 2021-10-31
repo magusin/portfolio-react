@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import logo from "../logo.png";
+import logo from "../../logo.png";
 import "./nav.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -26,7 +27,7 @@ const Nav = () => {
         </button>
       </div>
       <nav
-        className="hidden fixed bg-black h-full items-center text-white lg:block"
+        className="hidden fixed bg-black h-full items-center text-white lg:block z-10"
         id="nav-content"
       >
         <div className="">
@@ -36,12 +37,9 @@ const Nav = () => {
          <div className="flex-col lg:items-center my-8"> 
           <ul className="content-center list-reset lg:flex-col items-center">
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
-              <a
-                className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
-                href="#"
-              >
-                Accueil
-              </a>
+            <Link className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" to="/">
+                    Accueil
+                  </Link>
             </li>
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
               <a
@@ -52,19 +50,16 @@ const Nav = () => {
               </a>
             </li>
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
-              <a
-                className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
-                href="#"
-              >
-                Projet
-              </a>
+            <Link className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" to="/projet">
+                    Projet
+                  </Link>
             </li>
             <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
               <a
                 className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
                 href="#"
               >
-                link
+                About me
               </a>
             </li>
           </ul>
