@@ -1,0 +1,147 @@
+.skills {
+  min-height: 100vh;
+  min-width: 100wh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  
+}
+
+.card-skills {
+  height: 300px;
+  width: 20em;
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+  
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: "Lobster", cursive;
+  border-radius: 10px;
+  position: absolute;
+ 
+  
+}
+
+.front {
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  backface-visibility: hidden;
+  background-position: center;
+}
+
+.sql {
+  background-image: url("../../image/sql.png");
+}
+
+.bootstrap {
+  background-image: url("../../image/bootstrap.jpg");
+}
+
+.react {
+  background-image: url("../../image/react.png");
+}
+
+.css {
+  background-image: url("../../image/css.png");
+}
+
+.js {
+  background-image: url("../../image/js.png");
+  
+}
+
+.html {
+  background-image: url("../../image/html.png");
+}
+
+.sass {
+  background-image: url("../../image/sass.png");
+}
+
+.php {
+  background-image: url("../../image/php.png");
+}
+
+.tailwind {
+  background-image: url("../../image/tailwind.png");
+}
+
+.gsap {
+  background-image: url("../../image/gsap.png");
+}
+
+.back {
+  z-index: 1;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  background-size: auto;
+
+}
+
+.css-back {
+  background-image: url("../../image/css-code.png");
+}
+
+.js-back {
+  background-image: url("../../image/js-code.png");
+}
+
+.react-back {
+  background-image: url("../../image/react-code.png");
+}
+
+.sass-back {
+  background-image: url("../../image/sass-code.png");
+}
+
+.html-back {
+  background-image: url("../../image/html-code.png");
+}
+
+.sql-back {
+  background-image: url("../../image/sql-code.png");
+}
+
+.bootstrap-back {
+  background-image: url("../../image/bootstrap-code.png");
+}
+
+.php-back {
+  background-image: url("../../image/php-code.png");
+}
+
+.tailwind-back {
+  background-image: url("../../image/tailwind-code.png");
+}
+
+.gsap-back {
+  background-image: url("../../image/gsap-code.png");
+}
+
+.container-skills:hover .card-skills {
+  transform: rotateY(180deg);
+}
+
+.container-skills {
+  perspective: 1000px;
+  margin: 1.5rem;
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    margin-left: 130px;
+  }
+}

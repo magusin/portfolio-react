@@ -1,5 +1,5 @@
 .projet {
-  background: rgba(0, 0, 0, 0.658);
+  background: rgba(0, 0, 0, 0.815);
   font-family: "Montserrat", sans-serif;
  
 }
@@ -11,7 +11,7 @@
 }
 
 .box-1 {
-  background-image: url("../../nala.png");
+  background-image: url("../../image/nala.png");
   clip-path: circle(25%);
   transition: clip-path 1s;
 }
@@ -30,7 +30,7 @@
 }
 
 .box-2 {
-  background-image: url("../../enigma.png");
+  background-image: url("../../image/enigma.png");
   clip-path: ellipse(40% 10%);
   transition: clip-path 1s;
 }
@@ -41,7 +41,7 @@
 }
 
 .box-3 {
-  background-image: url("../../cv.png");
+  background-image: url("../../image/cv.png");
   clip-path:  polygon(80% 50%, 60% 20%, 20% 20%, 30% 30%, 30% 60%, 50% 75%, 80% 20%, 25% 50%);
   transition: clip-path 1s;
 }

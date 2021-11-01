@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../logo.png";
+import logo from "../../image/logo.png";
 import "./nav.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -15,7 +15,6 @@ const Nav = () => {
           id="nav-toggle"
           class="flex items-center px-3 py-2 border rounded text-white border-gray-600 h-12 bg-black"
         >
-			
           <svg
             className="fill-current h-6 w-6"
             viewBox="0 0 20 20"
@@ -34,25 +33,31 @@ const Nav = () => {
           <img alt="logo" className="text-center logo" src={logo} />
         </div>
 
-         <div className="flex-col lg:items-center my-8"> 
+        <div className="flex-col lg:items-center my-8">
           <ul className="content-center list-reset lg:flex-col items-center">
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
-            <Link className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" to="/">
-                    Accueil
-                  </Link>
+              <Link
+                className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
+                to="/"
+              >
+                Accueil
+              </Link>
             </li>
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
-              <a
+              <Link
                 className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
-                href="#"
+                to="/skills"
               >
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
-            <Link className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" to="/projet">
-                    Projet
-                  </Link>
+              <Link
+                className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
+                to="/projet"
+              >
+                Projet
+              </Link>
             </li>
             <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
               <a
@@ -64,13 +69,12 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-			<div className="flex justify-around">
-			<LinkedInIcon src="" />
+        <div className="flex justify-around">
+          <LinkedInIcon src="" />
           <GitHubIcon />
           <MailIcon />
           <PhoneIcon />
-			</div>
-   
+        </div>
       </nav>
     </>
   );

@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from "./components/nav/Nav";
 import Projet from "./components/projet/Projet";
+import Skills from "./components/skills/Skills";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MouseParticles from 'react-mouse-particles'
 
@@ -16,6 +17,9 @@ function App() {
         <Switch>
         <Route path="/projet">
             <Projet />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
         </Switch>
     </Router>
