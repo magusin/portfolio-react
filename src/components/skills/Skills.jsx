@@ -29,8 +29,8 @@ const skills = () => {
    </div>
    <div class="container-skills">
        <div class="card-skills">
-           <div class="front react"></div>
-           <div class="back react-back"></div>
+           <div class="front php"></div>
+           <div class="back php-back"></div>
        </div>
    </div>
    <div class="container-skills">
@@ -41,14 +41,14 @@ const skills = () => {
    </div>
    <div class="container-skills">
        <div class="card-skills">
-           <div class="front sql"></div>
-           <div class="back sql-back"></div>
+           <div class="front react"></div>
+           <div class="back react-back"></div>
        </div>
    </div>
    <div class="container-skills">
        <div class="card-skills">
-           <div class="front bootstrap"></div>
-           <div class="back bootstrap-back"></div>
+           <div class="front sql"></div>
+           <div class="back sql-back"></div>
        </div>
    </div>
    <div class="container-skills">
@@ -65,14 +65,14 @@ const skills = () => {
    </div>
    <div class="container-skills">
        <div class="card-skills">
-           <div class="front php"></div>
-           <div class="back php-back"></div>
+           <div class="front gsap"></div>
+           <div class="back gsap-back"></div>
        </div>
    </div>
    <div class="container-skills">
        <div class="card-skills">
-           <div class="front gsap"></div>
-           <div class="back gsap-back"></div>
+           <div class="front bootstrap"></div>
+           <div class="back bootstrap-back"></div>
        </div>
    </div>
    </div>

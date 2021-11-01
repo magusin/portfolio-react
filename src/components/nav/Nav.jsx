@@ -70,10 +70,10 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex justify-around">
-          <LinkedInIcon src="" />
-          <GitHubIcon />
-          <MailIcon />
-          <PhoneIcon />
+          <a href="https://www.linkedin.com/in/dev-hugo-jacques/" target="_blank" rel="noreferrer"> <LinkedInIcon /> </a>
+          <a href="https://github.com/magusin" target="_blank" rel="noreferrer"> <GitHubIcon /> </a>
+          <a href="mailto:hugo.jacques71@gmail.com" target="_blank" rel="noreferrer"> <MailIcon /> </a>
+          <a href="tel:0764450382" target="_blank" rel="noreferrer">  <PhoneIcon /> </a>
         </div>
       </nav>
     </>
