@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from 'react';
 import logo from "../../image/logo.png";
 import "./nav.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

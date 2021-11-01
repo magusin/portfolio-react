@@ -1,4 +1,4 @@
-import React, { Component  } from "react";
+import React from 'react';
 import "./aboutme.css";
 import * as THREE from 'three';
 import MindMapNode from './MindMapNode';
