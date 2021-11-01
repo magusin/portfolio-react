@@ -1,7 +1,4 @@
 .skills {
-  min-height: 100vh;
-  min-width: 100wh;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background: #222;
@@ -33,9 +30,9 @@
 .front {
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 2;
   backface-visibility: hidden;
   background-position: center;
+  
 }
 
 .sql {
@@ -45,6 +42,8 @@
 .bootstrap {
   background-image: url("../../image/bootstrap.jpg");
 }
+
+
 
 .react {
   background-image: url("../../image/react.png");
@@ -80,7 +79,6 @@
 }
 
 .back {
-  z-index: 1;
   transform: rotateY(180deg);
   backface-visibility: hidden;
   background-size: auto;

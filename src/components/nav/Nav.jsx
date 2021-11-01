@@ -26,7 +26,7 @@ const Nav = () => {
         </button>
       </div>
       <nav
-        className="hidden fixed bg-black h-full items-center text-white lg:block z-10"
+        className="hidden fixed bg-black h-full items-center text-white lg:block z-20"
         id="nav-content"
       >
         <div className="">

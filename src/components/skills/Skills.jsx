@@ -14,10 +14,10 @@ const skills = () => {
 
   return (
     <>
-      <div className="skills">
+      <div className="skills min-h-screen min-w-min flex">
         <div class="container-skills">
           <div class="card-skills">
-            <div class="front html font-sans font-bold"></div>
+            <div class="front html"></div>
             <div class="back html-back"></div>
           </div>
         </div>
