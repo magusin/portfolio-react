@@ -60,12 +60,12 @@ const Nav = () => {
               </Link>
             </li>
             <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
-              <a
+            <Link
                 className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
-                href="#"
+                to="/about-me"
               >
-                About me
-              </a>
+                About Me
+              </Link>
             </li>
           </ul>
         </div>
