@@ -3,18 +3,9 @@ foreignObject {
     font-family: sans-serif;
   }
   
-  .mind-map-node {
-    padding: 10px;
-    width: 120px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: bold;
+  .aboutme {
+    background: rgba(0, 0, 0, 0.815);
+    margin-left: 130px;
   }
   
   .magenta {

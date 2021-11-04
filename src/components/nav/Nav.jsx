@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <div class="block lg:hidden fixed right-2 top-2">
+      <div className="block lg:hidden fixed right-2 top-2">
         <button
           id="nav-toggle"
-          class="flex items-center px-3 py-2 border rounded text-white border-gray-600 h-12 bg-black"
+          className="flex items-center px-3 py-2 border rounded text-white border-gray-600 h-12 bg-black"
         >
           <svg
             className="fill-current h-6 w-6"
