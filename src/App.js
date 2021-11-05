@@ -22,7 +22,7 @@ function App() {
           <Route path="/skills">
             <Skills />
           </Route>
-          <Route path="/about-me">
+          <Route path="/about-me" >
             <About />
           </Route>
         </Switch>

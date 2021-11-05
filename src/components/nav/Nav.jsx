@@ -8,6 +8,10 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+
+  function refreshPage(){ 
+    window.location.reload(); 
+}
   return (
     <>
       <div className="block lg:hidden fixed right-2 top-2">
@@ -57,15 +61,20 @@ const Nav = () => {
                 to="/projet"
               >
                 Projet
-              </Link>
+              </Link> 
             </li>
             <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
-            <Link
+            {/* <Link
                 className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
                 to="/about-me"
+                onClick={ refreshPage }
               >
                 About Me
-              </Link>
+              </Link>  */}
+  
+              <a href="/about-me" className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" onClick={refreshPage}>About-Me</a> 
+             
+             
             </li>
           </ul>
         </div>

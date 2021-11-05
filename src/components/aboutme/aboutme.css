@@ -5,8 +5,10 @@ foreignObject {
   
   .aboutme {
     background: rgba(0, 0, 0, 0.815);
-    margin-left: 130px;
+    max-width: 300px;
+    max-height: 300px;
   }
+
   
   .magenta {
     color: rgb(241, 3, 200);

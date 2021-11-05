@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 
 export default function initializeScene(div) {
+  
   const renderer = new THREE.WebGLRenderer({ antialias: true });
   renderer.setSize(window.innerWidth, window.innerHeight);
   div.appendChild(renderer.domElement);
