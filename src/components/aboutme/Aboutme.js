@@ -6,10 +6,8 @@ export default function Aboutme() {
   const divRef = createRef();
   useEffect(() => renderMindMap(divRef.current), [divRef]);
   return (
-    <div className="aboutme">
-      
+    
   <div ref={divRef} />
-    </div>
     
   );
 }

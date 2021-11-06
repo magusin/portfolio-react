@@ -8,17 +8,13 @@ import * as THREE from 'three';
 import colorsByLevel from './colorsByLevel';
 import updateLinkPosition from './updateLinkPosition';
 
-// safeguard against crashing CodeSandbox:
-// stop animation loop after X cycles
-const maxCycles = 100;
-
 export default async function renderMindMap(div) {
-  const { scene, renderer, camera } = initializeScene(div, data);
+  const { scene, renderer, camera, controls } = initializeScene(div, data);
   data.nodes = await Promise.all(
     data.nodes.map((node) =>
       renderToSprite(<MindMapNode label={node.name} level={node.level} />, {
-        width: 120,
-        height: 60
+        width: 128,
+        height: 64
       }).then((sprite) => ({ ...node, sprite }))
     )
   );
@@ -34,14 +30,10 @@ export default async function renderMindMap(div) {
   scene.add(graph);
   camera.lookAt(graph.position);
 
-  let counter = 0;
-
   (function animate() {
     graph.tickFrame();
+    controls.update();
     renderer.render(scene, camera);
-    if (++counter === maxCycles) {
-      return;
-    }
     requestAnimationFrame(animate);
   })();
 }

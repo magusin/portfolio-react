@@ -7771,6 +7771,11 @@
   dependencies:
     "p-locate" "^4.1.0"
 
+"lodash-es@4.17.15":
+  "integrity" "sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ=="
+  "resolved" "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.15.tgz"
+  "version" "4.17.15"
+
 "lodash._reinterpolate@^3.0.0":
   "integrity" "sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0="
   "resolved" "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz"
@@ -11698,7 +11703,12 @@
     "ngraph.graph" "^19.1.0"
     "tinycolor2" "^1.4.2"
 
-"three@^0.134.0", "three@>=0.118.3":
+"three-trackballcontrols@0.9.0":
+  "integrity" "sha512-Z6HmIJnP70r5uONvcPCdLEF0SsG1kbGzNb7qQYj3c7b6v2E3XTlbNpZsgTjt36oKm0Z2tU11D6EbW4i8KIHuqA=="
+  "resolved" "https://registry.npmjs.org/three-trackballcontrols/-/three-trackballcontrols-0.9.0.tgz"
+  "version" "0.9.0"
+
+"three@^0.134.0", "three@>= 0.86 <= 1.0", "three@>=0.118.3":
   "integrity" "sha512-LbBerg7GaSPjYtTOnu41AMp7tV6efUNR3p4Wk5NzkSsNTBuA5mDGOfwwZL1jhhVMLx9V20HolIUo0+U3AXehbg=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.134.0.tgz"
   "version" "0.134.0"

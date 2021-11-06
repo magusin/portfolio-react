@@ -3,17 +3,6 @@ foreignObject {
     font-family: sans-serif;
   }
 
-canvas {
-  height: 200px;
-  width: 200px;
-}
-  
-  .aboutme {
-    background: rgba(0, 0, 0, 0.815);
-    max-width: 300px;
-    max-height: 300px;
-  }
-
   
   .magenta {
     color: rgb(241, 3, 200);
