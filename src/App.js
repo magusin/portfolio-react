@@ -4,6 +4,7 @@ import Projet from "./components/projet/Projet";
 import Skills from "./components/skills/Skills";
 import About from "./components/aboutme/Aboutme";
 import Contact from "./components/contact/Contact";
+import Homepage from "./components/homepage/Homepage"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MouseParticles from 'react-mouse-particles'
 
@@ -17,6 +18,9 @@ function App() {
             <Nav/>
         </header>
         <Switch>
+        <Route path="/home">
+            <Homepage />
+          </Route>
         <Route path="/projet">
             <Projet />
           </Route>

@@ -8,7 +8,7 @@
   height: 300px;
   width: 20em;
   position: relative;
-  transition: all 1s linear;
+  transition: all 0.75s linear;
   transform-style: preserve-3d;
   
 }
@@ -23,8 +23,6 @@
   font-family: "Lobster", cursive;
   border-radius: 10px;
   position: absolute;
- 
-  
 }
 
 .front {
