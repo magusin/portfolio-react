@@ -63,7 +63,7 @@ const Nav = () => {
                 Projet
               </Link> 
             </li>
-            <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
+            <li className="border-t-2 border-light-blue-500 border-opacity-100 text-center">
             {/* <Link
                 className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
                 to="/about-me"
@@ -75,6 +75,14 @@ const Nav = () => {
               <a href="/about-me" className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4" onClick={refreshPage}>About-Me</a> 
              
              
+            </li>
+            <li className="border-t-2 border-b-2 border-light-blue-500 border-opacity-100 text-center">
+              <Link
+                className="inline-block text-gray-300 no-underline hover:text-green-100 hover:text-underline py-2 px-4"
+                to="/contact"
+              >
+                Contact
+              </Link> 
             </li>
           </ul>
         </div>

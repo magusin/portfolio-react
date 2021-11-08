@@ -1,9 +1,15 @@
 foreignObject {
     box-sizing: border-box;
     font-family: sans-serif;
+    width: 10vh;
+    height: 10vh;
   }
 
-  
+  .about-me {
+    min-width: 50vh;
+    max-height: 50vh;
+  }
+
   .magenta {
     color: rgb(241, 3, 200);
     border-color: rgb(241, 3, 200);
@@ -27,3 +33,5 @@ foreignObject {
     border-color: rgb(3, 211, 207);
     background-color: rgb(190, 254, 253);
   }
+
+  
