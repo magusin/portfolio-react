@@ -1,11 +1,8 @@
 .text {
-    justify-content: center;
     padding-top: 2em;
-    display: flex;
-    /* transform: translate(50%,-50%); */
     /* text-transform: uppercase; */
     font-family: verdana;
-    font-size: 7em;
+    
     font-weight: 700;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #919191,
@@ -25,19 +22,19 @@
 }
 
 .subtitle {
-    font-size: 4em;
+
     margin-top: -1em;
 }
 
 .homepage {
-    min-height: 100vh;
+    
     min-width: auto;
     background-color:#2f2f2f;
    
 }
 
 @media screen and (min-width: 1024px) {
-    .homepage {
+    .text {
       margin-left: 130px;
     }
   }
